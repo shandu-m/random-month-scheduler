@@ -126,7 +126,7 @@ def main():
         weekend_scaling = None
         while weekend_scaling == None:
             weekend_scaling = input(
-                "\nHow much larger should E(numevents) | weekdend be than E(numevents) | weekday? \n\t"
+                "\nHow much larger should E(numevents) | weekend be than E(numevents) | weekday? \n\t"
             )
             try:
                 weekend_scaling = float(weekend_scaling)
